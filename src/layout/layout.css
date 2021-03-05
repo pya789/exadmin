@@ -1,0 +1,40 @@
+.layout {
+    height: 100vh;
+    display: flex;
+}
+
+.layout-header-main {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.header {
+    background-color: #B3C0D1;
+    color: #333;
+    text-align: center;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aside {
+    background-color: #D3DCE6;
+    color: #333;
+    text-align: center;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    background-color: #E9EEF3;
+    color: #333;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
