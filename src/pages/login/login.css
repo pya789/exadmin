@@ -1,0 +1,51 @@
+.login {
+    width: 100vw;
+    height: 100vh;
+    background-color: #2e394a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.content {
+    width: 384px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    width: 80%;
+}
+
+.title {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    color: aliceblue;
+}
+
+.el-input {
+    margin-bottom: 20px;
+}
+
+.el-input__inner {
+    background-color: #283344;
+    border: 0;
+    color: #fff;
+}
+
+.el-input__inner:focus {
+    border: 0;
+}
+
+.el-button {
+    width: 100%;
+}
